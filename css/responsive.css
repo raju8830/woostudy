@@ -1,0 +1,48 @@
+/*   Tablet Layout :768px  */
+@media only screen and (min-width:768px) and (max-width:991px){
+  .top_profile_img input{
+    width: 75%;
+  }
+  .left_site {
+    margin-left: 30px;
+  }
+  .post_bottom_content a{
+    margin-left: 4px;
+    font-size: 13px;
+  }
+  .add_part{
+    margin-left: 10px;
+  }
+  .post_top a{
+    font-size: 12px;
+  }
+  .left_section_content a{
+    font-size: 14px;
+  }
+  .left_section_content p{
+    font-size: 13px;
+  }
+  .social_media a{
+    margin-left: 5px;
+  }
+}
+/*   Mobile Layout :320px  */
+@media only screen and (max-width:767px){
+  .bg_section_left{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .no_padding{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .top_btn,
+  .top_profile_img{
+    display: none;
+  }
+  .navbar .nav-link{
+    display: inline-block;
+  }
+}
