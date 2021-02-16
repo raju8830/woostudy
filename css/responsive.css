@@ -39,10 +39,23 @@
     margin-top: 10px;
   }
   .top_btn,
-  .top_profile_img{
+  .display_none_sm img{
     display: none;
   }
   .navbar .nav-link{
     display: inline-block;
+  }
+  .top_profile_img input{
+    width: 80%;
+  }
+  .post_bottom_content a{
+    margin-left: 15px;
+    font-size: 11px;
+  }
+  .left_site{
+    margin-left: 80px;
+  }
+  .navbar .navbar-brand img {
+    margin-right: 60px;
   }
 }
